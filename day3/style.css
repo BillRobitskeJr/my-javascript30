@@ -1,0 +1,32 @@
+:root {
+  --baseColor: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+h1 {
+  font-size: 1.612em;
+}
+
+img {
+  width: 75vw;
+  height: auto;
+  padding: var(--spacing);
+  background-color: var(--baseColor);
+  filter: blur(var(--blur));
+}
+.colored {
+  color: var(--baseColor);
+}
+
+.controls {
+  margin-bottom: 50px;
+}
